@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="formularioIMC">
+        <input type="number" placeholder="Ditige Seu Peso" id="Peso" min="0" />
+        <input type="number" placeholder="Digite Sua Altura" id="Altura" min="0" />
+        <button type="button" id="ImcCalculo">Calcular IMC</button>
+    </form>
+    <table>
+        <Thead>
+            <tr>
+                <th>Faixa de IMC</th>
+                <th>Classicação</th>
+            </tr>
+        </Thead>
+        <tbody>
+            <tr>
+                <td>Menor que ou igual a 18,49</td>
+                <td> Abaixo do peso</td>
+            </tr>
+            <tr>
+                <td>Entre 18,5 a 24,9</td>
+                <td> Abaixo do peso</td>
+            </tr>
+            <tr>
+                <td>Entre 25,0 a 29,9 </td>
+                <td>Acima do peso</td>
+            </tr>
+            <tr>
+                <td>Entre 30,0 a 34,9 </td>
+                <td>Obesidade I</td>
+            </tr>
+            <tr>
+                <td>Entre 35,0 a 39,9 </td>
+                <td>Obesidade II</td>
+            </tr>
+            <tr>
+                <td>Maior ou igual a 40,0 </td>
+                <td>Obesidade III</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="./historico.html" target="_blank">historico</a>
+
+    <script src="IMC.js"></script>
+</body>
+
+</html>

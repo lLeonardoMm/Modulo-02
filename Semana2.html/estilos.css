@@ -1,0 +1,196 @@
+main{
+    margin-bottom: 60px;
+}
+body{
+    background-color: #112a49;
+} 
+.cabecario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    margin-right: 100px;
+}
+.RodaPe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-Rodape{
+    display: flex;
+    justify-content: center;
+}
+.link-RodaPe{
+    font-size: 21px;
+    font-family: system-ui;
+    font-style: italic;
+    word-spacing: 5px;
+}
+.link{
+    width: 70%;
+    font-size: 23px;
+    font-family: system-ui;
+    font-style: italic;
+    word-spacing: 10px;
+    margin-left: 50px;
+}
+a:link{
+    color: cadetblue;
+}
+a:visited{
+    color: rgb(23, 184, 248);
+}
+a:hover{
+    color: rgb(202, 223, 21);
+}
+.Sobre-texto{
+    display: flex;
+    flex-direction: row;
+}
+.Sobre-texto p{
+    padding-left: 50px;
+    text-align: center;
+}
+.SobreColuna1{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+}
+.Sobre-texto1{
+    padding-right: 20px;
+}
+.SobreColuna2{
+    display: flex;
+    width: 45%;
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p{
+    color: rgb(188,159,120);
+    font-size: 25px;
+}
+#boxs{
+    display: flex;
+   
+}
+span p{
+    border: 6px solid black;
+    box-shadow: 12px 7px 6px 0px #3f18dd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px 50px;
+}
+li{
+    color: rgb(188,159,120);
+    width: 90%;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+  }
+th{
+    color: rgb(188,159,120);
+    font-size: 30px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-decoration: underline;
+    width: 10%;
+}
+td{
+    color: rgb(188,159,120);
+    font-size: 25px;
+    padding-left: 40px;
+    word-spacing: 10px;
+    text-align: center;
+}
+.Projeto1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Projeto2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Projeto3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+figure p{
+    width: 50%;
+}
+div iframe{
+    border: 2px solid #4da0ff;
+    padding: 1%;
+}
+.videos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.primeiro-video {
+    width: 33%;
+    padding: 2%;
+}
+.segundo-video{
+    width: 33%;
+    padding: 2%;
+
+}.terceiro-video {
+    width: 33%;
+    padding: 2%;
+}
+#Dúvidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-Duvida{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-Duvida label {
+    color: rgb(188,159,120);
+    font-size: 40px;
+}
+.form-Duvida input {
+    color: #4da0ff;
+    font-size: 25px;
+    width: 550px;
+}
+#duvidas{
+    min-width: 500px;
+    min-height: 200px;
+    max-width: 700px;
+    max-height: 400px;
+    font-size: 25px;
+}
+#botao-Duvida{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
