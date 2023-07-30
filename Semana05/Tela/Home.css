@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+header{
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+header h1{
+    margin-bottom: 0;
+}
+article{
+    background-color: blue;
+    width: 10%;
+}
+main{
+    margin-left: 10px;
+    background-color: lightgoldenrodyellow;
+}
+#Conteudos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#Conteudos section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: solid yellowgreen;
+    border-radius: 10px;
+    width: 22%;
+    text-align: center;
+    
+     
+}
+section img{
+    max-height: 50%
+}
+section p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+section h3{
+    margin-top: 0px;
+}

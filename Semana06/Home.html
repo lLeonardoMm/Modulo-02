@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="display: flex; justify-content: space-between;">
+    <div id="Local1">
+        <h1>Contem A</h1>
+    </div>
+    <div id="Local2">
+        <h1>Não Contem A</h1>
+    </div>
+    <div id="Local3">
+        <h1>Contem Menos Que Seis Letras</h1>
+    </div>
+    <script type="module">
+        import { buscarNomes } from './Exporta.js'
+
+        const local1 = document.getElementById("Local1")
+        const local2 = document.getElementById("Local2")
+        const local3 = document.getElementById("Local3")
+        buscarNomes(local1, local2, local3)
+    </script>
+</body>
+
+</html>
