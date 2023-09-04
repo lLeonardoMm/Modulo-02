@@ -1,0 +1,37 @@
+$pedding: 10px;
+
+.p1{
+    background-color: rebeccapurple;
+
+    p{
+        font-size: 130%;
+        padding-bottom: $pedding;
+    }
+}
+.p2{
+    background-color: mediumaquamarine;
+
+    p{
+        padding-top: $pedding;
+    }
+}
+
+$cor-fundo: #3498db;
+$cor-texto: #ffffff;
+$cor-hover: #2980b9;
+
+// Estilize o botão genérico
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $cor-fundo;
+  color: $cor-texto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $cor-hover;
+  }
+}

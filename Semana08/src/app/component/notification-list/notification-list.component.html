@@ -1,0 +1,31 @@
+<h2 class="head">Listas Notificações</h2>
+    <ul class="ul"
+    *ngIf="notfs != null && notfs.length > 0">
+    <li 
+    *ngFor="let lista of listas"
+    [ngClass]="{'classe-ativa': !lista.lido, 'classe-inativa': lista.lido}">
+        <ng-container *ngIf="!lista.lido">
+            {{lista.titulo}} no ano de {{lista.data}}. <br>Descrição {{lista.subTitulo}}
+            <button (click)="textoLidoPaiPraFilho(lista.index)">Já li</button>
+        </ng-container>
+        
+    </li>
+</ul>
+
+
+<!-- com environment -->
+
+<h2 class="head">Notifications</h2>
+    <ul class="ul"
+    *ngIf="notfs != null && notfs.length > 0">
+    <li
+    *ngFor="let notf of notfs"
+    [ngClass]="{'classe-ativa': !notf.lido, 'classe-inativa': notf.lido}" 
+    >
+        <ng-container *ngIf="!notf.lido">
+            {{notf.titulo}} no ano de {{notf.data}}. <br>Descrição {{notf.subTitulo}}
+            <button (click)="textoLido(notf.index)">Já li</button>
+        </ng-container>
+        
+    </li>
+</ul>

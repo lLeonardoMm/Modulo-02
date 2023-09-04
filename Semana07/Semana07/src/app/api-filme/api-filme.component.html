@@ -1,0 +1,8 @@
+<button (click)="buscarFilme()">Buscar Filmes</button><br>
+ <span *ngIf="carregando">Carregando</span>
+ <span *ngIf="!carregando">Carregado</span><br>
+<button (click)="bemAvailiado()">Buscar Filmes</button><br>
+<button *ngIf="arrayValor < 2" (click)="proximo()">Proximo<br></button>
+<button *ngIf="arrayValor > 0" (click)="anterior()">Anterior</button>
+<p>{{filmeMostrado?.nomeFilme}} e sua nota é {{filmeMostrado?.notaIMDb}} </p>
+

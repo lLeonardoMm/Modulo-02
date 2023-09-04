@@ -1,0 +1,16 @@
+<input type="number" [(ngModel)]="valor1" id="texto1">
+<input type="number" [(ngModel)]="valor2" id="texto2"> 
+<br><br>
+<button (click)="Mais()" >+</button>
+<button (click)="Menos()" >-</button>
+<button (click)="Vezes()" >*</button>
+<button (click)="Divisao()" >/</button>
+<br><br>
+<span *ngIf="operacao">{{valor1}} {{operacao}} {{valor2}}</span>
+<br><br>
+<button (click)="Calcular()">Calcular</button>
+<button (click)="Limpar()">Limpar</button>
+<span *ngIf="clicado"><br>Resultado é: {{restuldadoFinal}} </span>
+
+
+
